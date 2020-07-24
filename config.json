@@ -7,7 +7,7 @@
     "donate-level": 1,      // donate level, mininum 1%                                                       
     "log-file": null,       // log all output to a file, example: "c:/some/path/webchain-miner.log"           
     "max-cpu-usage": 95,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.                                                                                                  
-    "print-time": 10,       // print hashrate report every N seconds                                          
+    "print-time": 5,       // print hashrate report every N seconds                                          
     "retries": 5,           // number of times to retry before switch to backup server                        
     "retry-pause": 5,       // time to pause between retries                                                  
     "safe": false,          // true to safe adjust threads and av settings for current CPU                    
@@ -18,7 +18,7 @@
             "url": "mintme.wattpool.net:1111", // URL of mining server
             "user": "0x98bE946fc4f361Eb164A2257c5aa412153eAE833",               // username for mining server
             "pass": "250",                         // password for mining server
-            "worker-id": "awside",                    // worker ID for mining server
+            "worker-id": "aws",                    // worker ID for mining server
             "keepalive": true,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": true
         }
