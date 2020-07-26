@@ -18,7 +18,7 @@
             "url": "mintme.wattpool.net:1111", // URL of mining server
             "user": "0x98bE946fc4f361Eb164A2257c5aa412153eAE833",               // username for mining server
             "pass": "250",                         // password for mining server
-            "worker-id": "aws",                    // worker ID for mining server
+            "worker-id": "aws1",                    // worker ID for mining server
             "keepalive": true,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": true
         }
